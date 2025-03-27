@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="displayText"></h1>
+    <div id="imgs">
+      <img id="P1" src="./imgs/Rock.png" alt="Rock" />
+      <h1 id="VS">VS.</h1>
+      <img id="P2" src="./imgs/Paper.png" alt="" />
+    </div>
+    <div id="gameButtons">
+      <form action="" onsubmit="event.preventDefault();" id="gameForm">
+        <button id="rock">ROCK!</button>
+        <button id="paper">PAPER!</button>
+        <button id="scissors">SCISSORS!</button>
+      </form>
+    </div>
+    <div id="scoreBoard">
+      <h1 id="playerScore">Player Score: 0</h1>
+      <h1 id="computerScore">Computer Score: 0</h1>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>

@@ -1,0 +1,36 @@
+body {
+  background: chocolate;
+}
+#gameButtons {
+  background: cadetblue;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+}
+
+#rock {
+  margin-left: 40rem;
+}
+
+#paper {
+  border-left: 5rem;
+  border-right: 5rem;
+}
+
+#imgs {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border: 5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+#VS {
+  margin-top: 10rem;
+}
